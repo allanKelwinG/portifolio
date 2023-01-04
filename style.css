@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&family=Roboto+Slab&family=Varela+Round&display=swap');
+
+:root{
+ --font-1: 'Roboto Mono', monospace;
+ --font-2: 'Varela Round', sans-serif;
+ --font-3: 'Roboto Slab', serif;
+
+ --cor-0: #353535ff;
+ --cor-1: #3c6e71ff;
+ --cor-2: #ffffffff;
+ --cor-3: #f1f1f1;
+ --cor-4: #284b63ff;
+ --cor-5: #507888;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: var(--cor-3);
+}
+
+header{
+    background-color: var(--cor-2);
+    font-family: var(--font-1);
+    position: fixed;
+    width: 100vw;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 10px 25px 10px 25px;
+}
+
+#inicio{
+    padding: 20px 0px;
+    font-family: var(--font-1);
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#linkedin{
+    margin-top: 20px;
+    background-color: var(--cor-1);
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.281);
+}
+
+#linkedin:hover{
+    cursor: pointer;
+    background-color: rgb(41, 73, 75) ;
+    color: rgb(113, 209, 214);
+
+}
+
+#linkedin>a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    padding-top: auto;
+    background: linear-gradient(63.13deg, var(--cor-0) 51.04%, var(--cor-4) 51.05%);
+    color: white;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#foto{
+    width: 300px;
+}
+
+#sobre{
+    background-color: var(--cor-5);
+    color: white;
+    font-family: var(--font-3);
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 5px 15px #00000044;
+}
+
+#mim{
+    max-width: 500px;
+    font-family: var(--font-3);
+}
+
+#html{
+    height: 300px;
+    margin-left: 100px;
+}
